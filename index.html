@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content=""><link rel="apple-touch-icon" sizes="57x57" href="template/images/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="template/images/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="template/images/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="template/images/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="template/images/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="template/images/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="template/images/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="template/images/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="template/images/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="template/images/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="template/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="template/images/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="template/images/favicon-16x16.png">
+<link rel="manifest" href="template/images/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="template/images/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <link rel="stylesheet" href="template/styles/style.css">
+    <title>Антарктида - продажа и доставка питьевой воды</title>
+  </head>
+  <body> 
+    <div class="wrapper">
+      <header class="header lock-padding">
+        <div class="header__container">
+          <div class="header__body"> <a class="header__logo logo" href="index.html">
+              <div class="logo__icon"> <img src="template/images/logo-icon.svg" alt="logo-icon"></div>
+              <div class="logo__text"><img src="template/images/logo-text.svg" alt="logo-text"></div></a>
+            <div class="header__contact"> <a class="header__phone-icon" href="tel:+73517008067"><img src="template/images/phone.svg" alt="phone"></a>
+              <div class="header__schedule"> 
+                <p class="header__row">прием заказов с 9:00 до 19:00</p>
+                <p class="header__row"><a class="header__phone" href="tel:+73517008067">+7 (351) <strong>700 80 67 </strong></a></p>
+              </div>
+            </div><a class="header__btn btn popup-link" href="#popup">Обратный звонок</a>
+            <div class="header__cart cart"> 
+              <div class="cart__icon"><img src="template/images/cart.svg" alt="cart-icon"><span class="cart__counter">2</span></div>
+              <div class="cart__body">
+                <div class="cart__empty">Корзина пуста</div>
+                <div class="cart__block">
+                  <ul class="cart__list"> </ul>
+                  <div class="cart__sum">ИТОГО: <span> </span></div>
+                  <div class="cart__text"> <span>Для оформления заказа, введите ваш номер телефона</span></div>
+                  <form class="cart__form form">
+                    <div class="form__cover">
+                      <div class="form__spinner">
+                        <div class="lds-ripple"><div></div>
+<div></div>
+                        </div>
+                      </div>
+                    </div>
+                    <input class="form__input _req" type="tel" placeholder="+7" data-tel-input maxlength="18">
+                    <button class="form__btn btn" type="submit">оформить заказ</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="header__burger"><span>menu</span></div>
+          </div>
+        </div>
+      </header>
+      <main class="main"> 
+        <aside class="menu lock-padding"> 
+          <nav>
+            <ul class="menu__list"> 
+              <li class="menu__item"> <a class="menu__link menu__link--active" href="#main">Заказать</a></li>
+              <li class="menu__item"> <a class="menu__link" href="#clean">О способе очистки воды</a></li>
+              <li class="menu__item"> <a class="menu__link" href="#shop">Наша продукция</a></li>
+              <li class="menu__item"> <a class="menu__link" href="#support">Сервисное обслуживание</a></li>
+              <li class="menu__item"> <a class="menu__link" href="#action">Скидки и акции</a></li>
+              <li class="menu__item"> <a class="menu__link" href="#cert">Документы и сертификаты</a></li>
+              <li class="menu__item"> <a class="menu__link" href="#callback">Контакты</a></li>
+            </ul>
+          </nav><a class="menu__contact" href="tel:+73517008067">
+            <div class="header__phone-icon"><img src="template/images/phone.svg" alt="phone"></div>
+            <div class="header__schedule"> 
+              <p class="header__row">прием заказов с 9:00 до 19:00</p>
+              <p class="header__row">
+                <div class="header__phone">+7 (351) <strong>700 80 67 </strong></div>
+              </p>
+            </div></a><a class="menu__btn btn popup-link" href="#popup">Обратный звонок</a>
+        </aside>
+        <section class="mainscreen observe" id="main">
+          <div class="mainscreen__container container">
+            <div class="mainscreen__body"> 
+              <div class="mainscreen__info"> 
+                <h1 class="mainscreen__title title">Кристально чистая вода с доставкой на дом или в офис</h1>
+                <p class="mainscreen__text text">Компания “Антарктида” осуществляет очистку воды методом обратного осмоса, что позволяет получить идеально чистую воду, которая не требует кипячения перед употреблением.</p><a class="mainscreen__btn btn round-btn" href="#">Заказать</a>
+              </div>
+              <div class="mainscreen__image"><img src="template/images/img01.webp" alt=""></div>
+            </div>
+          </div>
+        </section>
+        <section class="block observe" id="clean">
+          <div class="block__container container"> 
+            <div class="block__body"> 
+              <div class="block__info">
+                <h2 class="block__title title">Мы очищаем воду методом обратного осмоса</h2>
+                <div class="block__text text"> 
+                  <p>— процесс, в котором, при определённом давлении, растворитель (обычно вода) проходит через полупроницаемую мембрану из более концентрированного в менее концентрированный раствор, то есть в обратном для осмоса направлении. При этом мембрана пропускает растворитель, но не пропускает некоторые растворённые в нём вещества.</p>
+                  <p>Обратный осмос используют с 1970-х годов при очистке воды, получении питьевой воды из морской воды, получении особо чистой воды для медицины, промышленности и других нужд. С помощью обратного осмоса также можно производить концентраты соков без нагрева.</p>
+                  <p>Обратный осмос относится к наиболее перспективным и широко применяемым методам очистки и подготовки воды. Установка обратного осмоса способна удалять из воды частицы с размерами 0,001-0,0001 мкм. В этот диапазон попадают соли жёсткости, сульфаты, нитраты, ионы натрия, малые молекулы, красители. Для более эффективной работы рекомендуется применение предварительных ступеней очистки (механическая очистка и микро-, ультра- или нанофильтрация), удаляющих более крупные частицы.</p>
+                  <p> <a href="#" target="_blank">По данным Википедии</a></p>
+                </div>
+              </div>
+              <div class="block__facts">
+                <div class="block__fact fact"> 
+                  <div class="fact__title">Менее 1 мг-экв/л</div>
+                  <div class="fact__text">абсолютное большинство производимых питьевых вод имеют высокую жесткость. В США питьевая вода с жесткостью более 1 мг-экв/л считается жесткой</div>
+                </div>
+                <div class="block__fact fact"> 
+                  <div class="fact__title">Идеальная чистота</div>
+                  <div class="fact__text">количество основных загрязнителей в тысячи раз меньше допускаемых нормами на бутилированную воду</div>
+                </div>
+                <div class="block__fact fact"> 
+                  <div class="fact__title">Особая структура воды</div>
+                  <div class="fact__text">особенность технологии очистки, благодаря которой, вода легко усваивается и выводится из организма</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <article class="shop observe" id="shop">
+          <div class="shop__container container"> 
+            <div class="shop__body"> 
+              <div class="shop__buttons"> 
+                <button class="shop__btn shop__btn--active" type="button" data-filter=".water">Наша вода</button>
+                <button class="shop__btn" type="button" data-filter=".equipment">Оборудование</button>
+                <button class="shop__btn" type="button" data-filter=".expendables">Расходные материалы</button>
+                <button class="shop__btn" type="button" data-filter=".accessories">Аксессуары</button>
+              </div>
+              <ul class="shop__cards">
+                <li class="shop__card card water" data-id="1" data-price="150,130,100"> 
+                  <div class="card__display"> 
+                    <div class="card__image"> <img src="template/images/bottle01.webp" alt=""></div>
+                  </div>
+                  <h3 class="card__caption">ВОДА «АНТАРКТИДА ОСМО» 19 л </h3>
+                  <div class="card__price">150 ₽ / шт</div>
+                  <div class="card__remark">*при покупке от 6 бутылей</div>
+                  <button class="card__btn btn round-btn" type="button">заказать</button>
+                </li>
+                <li class="shop__card card water" data-id="2" data-price="60,50,40"> 
+                  <div class="card__display"> 
+                    <div class="card__image"> <img src="template/images/bottle02.webp" alt=""></div>
+                  </div>
+                  <h3 class="card__caption">ВОДА «АНТАРКТИДА ОСМО» 5 л</h3>
+                  <div class="card__price">60 ₽ / шт</div>
+                  <div class="card__remark">*при покупке от 6 бутылей</div>
+                  <button class="card__btn btn round-btn" type="button">заказать</button>
+                </li>
+                <li class="shop__card card water" data-id="3" data-price="30,25"> 
+                  <div class="card__display"> 
+                    <div class="card__image"> <img src="template/images/bottle03.webp" alt=""></div>
+                  </div>
+                  <h3 class="card__caption">ВОДА «АНТАРКТИДА ОСМО» 1,5 л</h3>
+                  <div class="card__price">30 ₽ / шт</div>
+                  <div class="card__remark">*при покупке от 6 бутылей</div>
+                  <button class="card__btn btn round-btn" type="button">заказать</button>
+                </li>
+                <li class="shop__card card water" data-id="4" data-price="20,15,10"> 
+                  <div class="card__display"> 
+                    <div class="card__image"> <img src="template/images/bottle04.webp" alt=""></div>
+                  </div>
+                  <h3 class="card__caption">ВОДА «АНТАРКТИДА ОСМО» 1 л</h3>
+                  <div class="card__price">20 ₽ / шт</div>
+                  <div class="card__remark">*при покупке от 6 бутылей</div>
+                  <button class="card__btn btn round-btn" type="button">заказать</button>
+                </li>
+                <li class="shop__card card equipment" data-id="5" data-price="2975,2800,2500"> 
+                  <div class="card__display"> 
+                    <div class="card__image"> <img src="template/images/cooler.webp" alt=""></div>
+                  </div>
+                  <h3 class="card__caption">КУЛЕР AQUA WORK 0.7-TK БЕЛЫЙ (НАГРЕВ, БЕЗ ОХЛАЖДЕНИЯ)</h3>
+                  <div class="card__price">2975 ₽</div>
+                  <button class="card__btn btn round-btn" type="button">заказать</button>
+                </li>
+                <li class="shop__card card equipment" data-id="6" data-price="4000,3500,3000"> 
+                  <div class="card__display"> 
+                    <div class="card__image"> <img src="template/images/cooler.webp" alt=""></div>
+                  </div>
+                  <h3 class="card__caption">КУЛЕР AQUA WORK 0.7-TK БЕЛЫЙ (НАГРЕВ, БЕЗ ОХЛАЖДЕНИЯ)</h3>
+                  <div class="card__price">4000 ₽</div>
+                  <button class="card__btn btn round-btn" type="button">заказать</button>
+                </li>
+                <li class="shop__card card accessories" data-id="7" data-price="920"> 
+                  <div class="card__display"> 
+                    <div class="card__image"> <img src="template/images/stance.webp" alt=""></div>
+                  </div>
+                  <h3 class="card__caption">ДЕРЖАТЕЛЬ СТАКАНОВ МАГНИТНЫЙ ЧЕРНЫЙ (БЕЛЫЙ)</h3>
+                  <div class="card__price">920 ₽</div>
+                  <button class="card__btn btn round-btn" type="button">заказать</button>
+                </li>
+                <li class="shop__card card accessories" data-id="8" data-price="700,600,500"> 
+                  <div class="card__display"> 
+                    <div class="card__image"> <img src="template/images/pump.webp" alt=""></div>
+                  </div>
+                  <h3 class="card__caption">ПОМПА МЕХАНИЧЕСКАЯ</h3>
+                  <div class="card__price">700 ₽</div>
+                  <button class="card__btn btn round-btn" type="button">заказать</button>
+                </li>
+                <li class="shop__card card accessories" data-id="9" data-price="500,400,300,200,100"> 
+                  <div class="card__display"> 
+                    <div class="card__image"> <img src="template/images/pump.webp" alt=""></div>
+                  </div>
+                  <h3 class="card__caption">ПОМПА МЕХАНИЧЕСКАЯ</h3>
+                  <div class="card__price">500 ₽</div>
+                  <button class="card__btn btn round-btn" type="button">заказать</button>
+                </li>
+                <li class="shop__card card accessories" data-id="10" data-price="900,800,700"> 
+                  <div class="card__display"> 
+                    <div class="card__image"> <img src="template/images/pump.webp" alt=""></div>
+                  </div>
+                  <h3 class="card__caption">ПОМПА МЕХАНИЧЕСКАЯ</h3>
+                  <div class="card__price">900 ₽</div>
+                  <button class="card__btn btn round-btn" type="button">заказать</button>
+                </li>
+                <li class="shop__card card expendables" data-id="11" data-price="95,90,85,80"> 
+                  <div class="card__display"> 
+                    <div class="card__image"> <img src="template/images/plastic-glass.webp" alt=""></div>
+                  </div>
+                  <h3 class="card__caption">СТАКАН 0,2 БЕЛЫЙ</h3>
+                  <div class="card__price">95  ₽ / 100 шт</div>
+                  <button class="card__btn btn round-btn" type="button">заказать</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <section class="support observe" id="support">
+          <div class="support__container container"> 
+            <div class="support__body">
+              <div class="support__info"> 
+                <h2 class="support__title title">Профессиональная чистка и ремонт кулеров для воды</h2>
+                <div class="support__text text">Чтобы питьевая вода в диспенсере сохраняла свои природные свойства и приятный вкус, необходимо регулярно, не реже одного раза в 3-6 месяцев, проводить чистку кулера. Доверьте это специалистам компании “Антарктида”.</div><a class="support__btn btn round-btn popup-link" href="#support-popup">заказать услугу</a>
+              </div>
+              <div class="support__image"> <img src="template/images/repair.webp" alt=""></div>
+            </div>
+          </div>
+        </section>
+        <section class="action observe" id="action">
+          <div class="action__container container"> 
+            <div class="action__body"> 
+              <div class="action__title title">Скидки и Акции</div>
+              <div class="action__slider slider swiper">
+                <div class="slider__wrapper swiper-wrapper">
+                  <div class="slider__slide swiper-slide">
+                    <div class="slider__info"> 
+                      <div class="slider__caption">Акция 3+1</div>
+                      <div class="slider__desc">При заказе 3 бутылей воды, четвертая - в подарок!</div>
+                      <div class="slider__text"> 
+                        <p>Акция действует для новых клиентов.</p>
+                        <p>При заказе 3 бутылей за 420 рублей.</p>
+                        <p>Тара в стоимость не входит.</p>
+                        <p>При отсутствии, оплачивается отдельно: 300 рублей за 1 бутылку.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider__slide swiper-slide">
+                    <div class="slider__info"> 
+                      <div class="slider__caption">Акция 3+1</div>
+                      <div class="slider__desc">При заказе 3 бутылей воды, четвертая - в подарок!</div>
+                      <div class="slider__text"> 
+                        <p>Акция действует для новых клиентов.</p>
+                        <p>При заказе 3 бутылей за 420 рублей.</p>
+                        <p>Тара в стоимость не входит.</p>
+                        <p>При отсутствии, оплачивается отдельно: 300 рублей за 1 бутылку.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider__slide swiper-slide">
+                    <div class="slider__info"> 
+                      <div class="slider__caption">Акция 3+1</div>
+                      <div class="slider__desc">При заказе 3 бутылей воды, четвертая - в подарок!</div>
+                      <div class="slider__text"> 
+                        <p>Акция действует для новых клиентов.</p>
+                        <p>При заказе 3 бутылей за 420 рублей.</p>
+                        <p>Тара в стоимость не входит.</p>
+                        <p>При отсутствии, оплачивается отдельно: 300 рублей за 1 бутылку.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider__slide swiper-slide">
+                    <div class="slider__info"> 
+                      <div class="slider__caption">Акция 3+1</div>
+                      <div class="slider__desc">При заказе 3 бутылей воды, четвертая - в подарок!</div>
+                      <div class="slider__text"> 
+                        <p>Акция действует для новых клиентов.</p>
+                        <p>При заказе 3 бутылей за 420 рублей.</p>
+                        <p>Тара в стоимость не входит.</p>
+                        <p>При отсутствии, оплачивается отдельно: 300 рублей за 1 бутылку.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__arrow-prev swiper-button-prev"></div>
+                <div class="slider__arrow-next swiper-button-next"></div>
+                <div class="slider__pagination swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cert observe" id="cert">
+          <div class="cert__container container"> 
+            <div class="cert__body"> 
+              <div class="cert__bar"> 
+                <h2 class="cert__title title">Документы и сертификаты</h2>
+                <div class="cert__links"> <a class="cert__link" href="#" download>Скачать образец договора</a><a class="cert__link" href="#" download>Скачать реквизиты организации</a></div>
+              </div>
+              <div class="cert__slider slider swiper">
+                <div class="slider__wrapper swiper-wrapper">
+                  <div class="slider__slide swiper-slide"><a href="template/images/cert01.webp" data-fancybox="gallery" data-caption="Сертификат 1"> <img src="template/images/cert01.webp" alt=""></a></div>
+                  <div class="slider__slide swiper-slide"><a href="template/images/cert02.webp" data-fancybox="gallery" data-caption="Сертификат 2"> <img src="template/images/cert02.webp" alt=""></a></div>
+                  <div class="slider__slide swiper-slide"><a href="template/images/cert03.webp" data-fancybox="gallery" data-caption="Сертификат 3"> <img src="template/images/cert03.webp" alt=""></a></div>
+                  <div class="slider__slide swiper-slide"><a href="template/images/cert04.webp" data-fancybox="gallery" data-caption="Сертификат 4"> <img src="template/images/cert04.webp" alt=""></a></div>
+                  <div class="slider__slide swiper-slide"><a href="template/images/cert01.webp" data-fancybox="gallery" data-caption="Сертификат 1"> <img src="template/images/cert01.webp" alt=""></a></div>
+                  <div class="slider__slide swiper-slide"><a href="template/images/cert02.webp" data-fancybox="gallery" data-caption="Сертификат 2"> <img src="template/images/cert02.webp" alt=""></a></div>
+                  <div class="slider__slide swiper-slide"><a href="template/images/cert03.webp" data-fancybox="gallery" data-caption="Сертификат 3"> <img src="template/images/cert03.webp" alt=""></a></div>
+                  <div class="slider__slide swiper-slide"><a href="template/images/cert04.webp" data-fancybox="gallery" data-caption="Сертификат 4"> <img src="template/images/cert04.webp" alt=""></a></div>
+                </div>
+                <div class="slider__arrow-prev swiper-button-prev"></div>
+                <div class="slider__arrow-next swiper-button-next"></div>
+                <div class="slider__pagination swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="callback observe" id="callback">
+          <div class="callback__container container"> 
+            <div class="callback__body"> 
+              <h2 class="callback__title title">Мы перезвоним</h2>
+              <div class="callback__info">
+                <form class="form" action="#">
+                  <div class="form__cover">
+                    <div class="form__spinner">
+                      <div class="lds-ripple"><div></div>
+<div></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form__text text">Если не знаете что выбрать или у вас возникли вопросы по доставке, заказу или возврату товара в нашем магазине, то мы вам поможем.</div>
+                  <label class="form__label"><span>как вас зовут? *</span>
+                    <input class="form__input _req" type="text" name="form-name" id="form-name" placeholder="Иван Иванов">
+                  </label>
+                  <label class="form__label"><span>ваше сообщение</span>
+                    <textarea class="form__input" name="form-textarea" id="form-textarea" placeholder="Интересующий вопрос"></textarea>
+                  </label>
+                  <label class="form__label"><span>телефон *</span>
+                    <input class="form__input _req" type="tel" name="form-phone" id="form-phone" placeholder="+7" data-tel-input maxlength="18">
+                  </label>
+                  <div class="form__bottom"> 
+                    <button class="form__btn btn" type="submit">отправить</button>
+                    <div class="form__agreement">Нажимая “Отправить” вы соглашаетесь с <a href="agreement.html" target="_blank">обработкой персональных данных</a></div>
+                  </div>
+                  <div class="form__remark">* - Обязательное поле</div>
+                </form>
+                <div class="callback__text"> 
+                  <p>Наша компания работает на рынке питьевой воды Челябинска с 2005 года и имеет значительный опыт сотрудничества с клиентами разного уровня. </p>
+                  <p>Выбирая нас, Вы обеспечиваете себе своевременную доставку питьевой воды транспортом нашей компании, оперативное и взаимовыгодное решение возникающих вопросов.</p>
+                  <p>Специально для Вас мы можем заказать и доставить оборудование на любой вкус: от простейших механических помп, до авангардных напольных вододиспенсеров с функцией нагрева, охлаждения и холодильником, с функцией приготовления готовых горячих напитков: кофе, чай. Огромное множество форм и расцветок помогут с лёгкостью вписать его в интерьер вашего офиса или квартиры.</p>
+                  <p>Для заключения договора Вам необходимо просто позвонить нам в офис или заполнить форму обратной связи.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"> 
+        <div class="footer__container">
+          <div class="footer__body"> 
+            <div class="footer__copyright">© 2022 Антарктида</div><a class="footer__link" href="#" target="_blank">Политика конфиденциальности</a><a class="footer__link" href="#" target="_blank">Соглашение об обработке персональных данных</a>
+            <div class="footer__dev"> <a class="footer__dev-name" href="https://creatizer.pro/ru/" target="_blank">Разработка сайта Creatizer</a><a class="footer__dev-logo" href="https://creatizer.pro/ru/" target="_blank"><img src="template/images/dev-logo.svg" alt=""></a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="popup" id="popup">
+      <div class="popup__body"> 
+        <div class="popup__content"> <a class="popup__close close-popup" href="#"><svg width="35" height="36" viewBox="0 0 35 36" fill="#525252" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.234 17.234L0.970562 0.970562L0.263456 1.67767L16.5269 17.9411L0.263456 34.2046L0.970562 34.9117L17.234 18.6482L34.2046 35.6188L34.9117 34.9117L17.9411 17.9411L34.9117 0.970562L34.2046 0.263455L17.234 17.234Z" />
+</svg></a>
+          <div class="popup__title">Обратный звонок</div>
+          <div class="popup__text text">Оставьте свой номер телефона и мы перезвоним Вам</div>
+          <form class="popup__form form" action="#">
+            <div class="form__cover">
+              <div class="form__spinner">
+                <div class="lds-ripple"><div></div>
+<div></div>
+                </div>
+              </div>
+            </div>
+            <input class="form__input _req" type="tel" placeholder="+7" data-tel-input maxlength="18">
+            <button class="form__btn btn" type="submit">отправить</button>
+          </form>
+          <div class="popup__agreement">Нажимая “Отправить” вы соглашаетесь с обработкой персональных данных</div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="support-popup">
+      <div class="popup__body"> 
+        <div class="popup__content"> <a class="popup__close close-popup" href="#"><svg width="35" height="36" viewBox="0 0 35 36" fill="#525252" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.234 17.234L0.970562 0.970562L0.263456 1.67767L16.5269 17.9411L0.263456 34.2046L0.970562 34.9117L17.234 18.6482L34.2046 35.6188L34.9117 34.9117L17.9411 17.9411L34.9117 0.970562L34.2046 0.263455L17.234 17.234Z" />
+</svg></a>
+          <div class="popup__title">Заказать ремонт кулера</div>
+          <div class="popup__text text">Оставьте свой номер телефона и мы перезвоним Вам</div>
+          <form class="popup__form form" action="#">
+            <div class="form__cover">
+              <div class="form__spinner">
+                <div class="lds-ripple"><div></div>
+<div></div>
+                </div>
+              </div>
+            </div>
+            <input class="form__input _req" type="tel" placeholder="+7" data-tel-input maxlength="18">
+            <button class="form__btn btn" type="submit">отправить</button>
+          </form>
+          <div class="popup__agreement">Нажимая “Отправить” вы соглашаетесь с обработкой персональных данных</div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup-thx">
+      <div class="popup__body"> 
+        <div class="popup__content">
+          <div class="popup__title">Спасибо!</div>
+          <div class="popup__text text">Наш специалист свяжется с Вами в ближайшее время.</div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup-error">
+      <div class="popup__body"> 
+        <div class="popup__content"> <a class="popup__close close-popup" href="#"><svg width="35" height="36" viewBox="0 0 35 36" fill="#525252" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.234 17.234L0.970562 0.970562L0.263456 1.67767L16.5269 17.9411L0.263456 34.2046L0.970562 34.9117L17.234 18.6482L34.2046 35.6188L34.9117 34.9117L17.9411 17.9411L34.9117 0.970562L34.2046 0.263455L17.234 17.234Z" />
+</svg></a>
+          <div class="popup__title">Ой, ошибка...</div>
+          <div class="popup__text text">Возникла ошибка с сервером. Попробуйте отправить запрос через некоторое время.</div>
+        </div>
+      </div>
+    </div><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="template/scripts/index.js"> </script>
+  </body>
+</html>
